@@ -23,7 +23,7 @@ List<uint> Path(uint n, uint m)
       arr += m - 1;
     } else
     {
-      arr = arr - n;
+      arr = arr % n;
       if (arr == 0) break;
     }
   }
